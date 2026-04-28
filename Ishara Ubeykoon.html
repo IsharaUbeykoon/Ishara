@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ishara Ubeykoon | Portfolio V2</title>
+<style>
+:root{--bg:#06070a;--card:#11131a;--text:#f5f7ff;--muted:#9aa3b2;--accent:#00e7ff;--gold:#d8b45a}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Arial,sans-serif;background:linear-gradient(180deg,#06070a,#0b1020);color:var(--text)}nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:18px 6%;background:rgba(0,0,0,.55);backdrop-filter:blur(10px);z-index:10}.logo{font-weight:700;letter-spacing:2px}.logo span{color:var(--accent)}nav a{color:#fff;text-decoration:none;margin-left:18px}section{padding:90px 6%}.hero{min-height:100vh;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at top,#123,#06070a)}.hero h1{font-size:clamp(42px,9vw,92px);line-height:1}.hero h1 span{color:var(--accent)}.hero p{max-width:760px;margin:20px auto;color:var(--muted);font-size:1.1rem}.btns{margin-top:28px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap}.btn{padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:700}.primary{background:var(--accent);color:#000}.secondary{border:1px solid #334;color:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{background:var(--card);padding:24px;border-radius:22px;border:1px solid #1d2230}.title{font-size:2rem;margin-bottom:18px}.muted{color:var(--muted)}.stats .card h3{font-size:2rem;color:var(--accent)}.timeline .item{border-left:2px solid var(--accent);padding-left:18px;margin:18px 0}.project{transition:.3s}.project:hover{transform:translateY(-6px)}footer{text-align:center;padding:40px;color:var(--muted)}input,textarea{width:100%;padding:14px;margin:8px 0;background:#0c1118;border:1px solid #263041;color:#fff;border-radius:12px}button{cursor:pointer;border:none}.glow{box-shadow:0 0 25px rgba(0,231,255,.18)}@media(max-width:700px){nav .links{display:none}}
+</style>
+</head>
+<body>
+<div id='loader' style="position:fixed;inset:0;background:#05070a;display:flex;align-items:center;justify-content:center;z-index:9999;flex-direction:column;color:#fff"><div style='font-size:42px;font-weight:700;letter-spacing:3px'>ISHARA <span style='color:#00e7ff'>V3</span></div><div style='margin-top:12px;color:#9aa3b2'>Initializing GOD MODE...</div></div>
+<canvas id='bgfx' style='position:fixed;inset:0;z-index:-1'></canvas>
+<nav><div class='logo'>ISHARA <span>V2</span></div><div class='links'><a href='#about'>About</a><a href='#projects'>Projects</a><a href='#contact'>Contact</a></div></nav>
+<section class='hero'>
+<div>
+<p style='letter-spacing:3px;color:var(--gold)'>ENGINEERING INTELLIGENCE • BUILDING FUTURES</p>
+<h1>ISHARA <span>UBEYKOON</span></h1>
+<p>AI, Robotics & Embedded Systems Specialist | Academic Leader | Innovation Strategist with 15+ years of experience creating high-impact systems and future-ready education pathways.</p>
+<div class='btns'><a class='btn primary glow' href='#projects'>View Projects</a><a class='btn secondary' href='#contact'>Hire Me</a></div>
+</div>
+</section>
+<section id='about'>
+<h2 class='title'>Authority Profile</h2>
+<div class='grid stats'>
+<div class='card'><h3>15+</h3><p class='muted'>Years Experience</p></div>
+<div class='card'><h3>100+</h3><p class='muted'>Students Guided</p></div>
+<div class='card'><h3>20+</h3><p class='muted'>Systems Delivered</p></div>
+<div class='card'><h3>3+</h3><p class='muted'>Leadership Roles</p></div>
+</div>
+<div style='margin-top:28px' class='card'>From lecturer to Head of Academics, your journey blends software engineering, robotics, AI and institutional leadership into one rare profile built for impact.</div>
+</section>
+<section>
+<h2 class='title'>Career Timeline</h2>
+<div class='timeline'>
+<div class='item'><strong>2025–Present</strong> — Head of Academics, Faculty of IT</div>
+<div class='item'><strong>2022–2025</strong> — Head of Research & Development</div>
+<div class='item'><strong>2013–2025</strong> — Senior Lecturer / Technology Educator</div>
+<div class='item'><strong>15+ Years</strong> — Freelance Engineer & Systems Builder</div>
+</div>
+</section>
+<section>
+<h2 class='title'>Research & Innovation Beyond Technology</h2>
+<div class='grid'>
+<div class='card project'><h3>Alternative Energy Research</h3><p class='muted'>Conducted multidisciplinary experimentation in biodiesel production using palm oil, methanol and catalyst processes during Sri Lanka's economic crisis period (2022–2023), exploring practical responses to fuel scarcity and supply disruptions.</p></div>
+<div class='card project'><h3>Pandemic Safety Innovation</h3><p class='muted'>During the COVID-19 period, explored multiple safety equipment concepts, protective solutions and practical response ideas focused on resilience, public safety and rapid adaptation.</p></div>
+<div class='card project'><h3>Applied Problem-Solving Mindset</h3><p class='muted'>Known for identifying urgent national and community problems, then researching hands-on engineering and scientific solutions across multiple disciplines.</p></div>
+</div>
+</section>
+<section id='projects'>
+<h2 class='title'>Featured Projects</h2>
+<div class='grid'>
+<div class='card project'><h3>Smart Elevator Control</h3><p class='muted'>Embedded automation system with optimized control logic and safety workflows.</p></div>
+<div class='card project'><h3>AI Chatbot Platforms</h3><p class='muted'>Automated support and inquiry systems with intelligent responses.</p></div>
+<div class='card project'><h3>Exam Management System</h3><p class='muted'>Secure academic assessment operations and workflow digitization.</p></div>
+<div class='card project'><h3>Robotics Lab Builds</h3><p class='muted'>Arduino, sensors, control systems and practical learning solutions.</p></div>
+</div>
+</section>
+<section>
+<h2 class='title'>Services</h2>
+<div class='grid'>
+<div class='card'>AI Consulting</div><div class='card'>Robotics Training</div><div class='card'>Software Development</div><div class='card'>Academic Strategy</div>
+</div>
+</section>
+<section id='contact'>
+<h2 class='title'>Let's Build Something Extraordinary</h2>
+<div class='grid'>
+<div class='card'><p>Email: isharasoftcorporation@gmail.com</p><p style='margin-top:10px'>Location: Sri Lanka</p><p style='margin-top:10px'>Available for consulting, speaking, training and strategic partnerships.</p></div>
+<div class='card'><input placeholder='Your Name'><input placeholder='Your Email'><textarea rows='5' placeholder='Tell me about your project'></textarea><button class='btn primary' onclick='sendMsg()'>Send Inquiry</button></div>
+</div>
+</section>
+<section>
+<h2 class='title'>Innovation During Crisis</h2>
+<div class='grid'>
+<div class='card'><h3>Economic Crisis Response</h3><p class='muted'>When supply chains failed and fuel shortages disrupted daily life, I explored alternative energy pathways and practical engineering responses instead of waiting for solutions.</p></div>
+<div class='card'><h3>Pandemic Response Mindset</h3><p class='muted'>During uncertainty, I investigated safety-focused concepts and adaptive tools that could improve resilience and preparedness.</p></div>
+<div class='card'><h3>Leadership Under Pressure</h3><p class='muted'>My approach in difficult periods is simple: study the problem, test solutions, improve rapidly, and create value for others.</p></div>
+</div>
+</section>
+<section>
+<h2 class='title'>Testimonials</h2>
+<div class='grid'>
+<div class='card'><p>"Strong technical leadership with practical execution."</p><small class='muted'>Academic Colleague</small></div>
+<div class='card'><p>"Transforms complex ideas into teachable systems."</p><small class='muted'>Student Feedback</small></div>
+<div class='card'><p>"Combines innovation, discipline and vision."</p><small class='muted'>Professional Peer</small></div>
+</div>
+</section>
+<section>
+<h2 class='title'>Elite Features</h2>
+<div class='grid'>
+<div class='card'>Bilingual Ready (English / Sinhala)</div>
+<div class='card'>Consulting & Speaking Availability</div>
+<div class='card'>Institutional Partnerships</div>
+<div class='card'>Future AI Lab Vision</div>
+</div>
+</section>
+<section>
+<h2 class='title'>Launch Actions</h2>
+<div class='grid'>
+<div class='card'><a href='#contact'>📩 Hire / Consult Now</a></div>
+<div class='card'><a href='https://wa.me/94719102080' target='_blank'>💬 WhatsApp Direct</a></div>
+<div class='card'><a href='#'>📄 Download CV</a></div>
+<div class='card'><a href='#projects'>🚀 Explore Projects</a></div>
+</div>
+</section>
+<footer>© 2026 Ishara Ubeykoon — Built for the Future</footer>
+<script>
+function sendMsg(){alert('Connect form demo ready. Integrate Formspree / Netlify Forms / EmailJS for live messages.');}
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.animate([{opacity:0,transform:'translateY(30px)'},{opacity:1,transform:'translateY(0)'}],{duration:700,fill:'forwards'})}})},{threshold:.15});document.querySelectorAll('.card,.title,.item').forEach(el=>obs.observe(el));
+setTimeout(()=>{document.getElementById('loader').style.opacity='0';setTimeout(()=>document.getElementById('loader').remove(),600)},1800);
+const c=document.getElementById('bgfx');const x=c.getContext('2d');function rs(){c.width=innerWidth;c.height=innerHeight}rs();addEventListener('resize',rs);let p=[...Array(80)].map(()=>({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-.5)*.6,vy:(Math.random()-.5)*.6,r:Math.random()*2+1}));function fx(){x.clearRect(0,0,c.width,c.height);for(let i=0;i<p.length;i++){let a=p[i];a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>c.width)a.vx*=-1;if(a.y<0||a.y>c.height)a.vy*=-1;x.beginPath();x.arc(a.x,a.y,a.r,0,7);x.fillStyle='rgba(0,231,255,.7)';x.fill();for(let j=i+1;j<p.length;j++){let b=p[j],d=Math.hypot(a.x-b.x,a.y-b.y);if(d<120){x.strokeStyle='rgba(0,231,255,'+(1-d/120)*.15+')';x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke();}}}requestAnimationFrame(fx)}fx();
+window.addEventListener('load',function(){const vb=document.getElementById('voiceBtn');if(vb){vb.onclick=function(){const msg=new SpeechSynthesisUtterance('Welcome. I am Ishara Ubeykoon. AI, Robotics and Innovation leader. Let us build the future together.');speechSynthesis.speak(msg);};}});
+</script>
+<button id='voiceBtn' style='position:fixed;left:20px;bottom:20px;padding:14px 18px;border:none;border-radius:999px;background:#d8b45a;color:#000;font-weight:700;z-index:99'>🔊 Voice Intro</button>
+<button onclick="window.location='#contact'" style='position:fixed;right:20px;bottom:20px;padding:16px 20px;border:none;border-radius:999px;background:#00e7ff;color:#000;font-weight:700;z-index:99'>Hire Me</button>
+</body></html>
